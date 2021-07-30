@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+
+    <script src="matter.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBU-OEPJR4Mt6F5X6qaIAqj7eZVjt7AwO8",
+    authDomain: "virtual-pet-78d32.firebaseapp.com",
+    databaseURL: "https://virtual-pet-78d32-default-rtdb.firebaseio.com",
+    projectId: "virtual-pet-78d32",
+    storageBucket: "virtual-pet-78d32.appspot.com",
+    messagingSenderId: "260937526848",
+    appId: "1:260937526848:web:eddcd2c176777d8db379a5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <script src="Ground.js"></script>
+    <script src="Box.js"></script>
+    <script src="Rope.js"></script>
+    <script src="Hero.js"></script>
+    <script src="Monster.js"></script>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
